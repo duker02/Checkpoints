@@ -1,0 +1,29 @@
+messages:
+  prefix: '&8[&2Checkpoint&8] '
+  success:
+    teleport: '&aTeleported to your saved checkpoint.'
+  error:
+    disappeared: '&cYour saved checkpoint has disappeared. (?)'
+    no-checkpoint: '&cYou don''t have a checkpoint saved.'
+    no-drop: '&cYou can''t drop this item!'
+    no-place: '&cYou can''t place this item!'
+    no-permission: '&cNo permission!'
+  admin:
+    added: '&aCheckpoint added to the config!'
+    deleted: '&aCheckpoint deleted from config!'
+    plate-added: '&aPlate added to the config!'
+    plate-deleted: '&aPlate deleted from config!'
+    already-exists: '&cThis location already exists as a checkpoint.'
+    doesnt-exist: '&cThere isn''t a checkpoint here.'
+    config-reload: '&aThe config has been reloaded!'
+    clear: '&aAll checkpoints cleared from config.'
+    plate-exists: '&cThat plate already exists!'
+
+checkpoints:
+  item-enabled: true
+  item: EMERALD
+  item-name: '&aCheckpoint Teleport &7(Right Click)'
+  item-lore: '&bTeleport to your last saved checkpoint.'
+
+  locations: []
+  plates: []
